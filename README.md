@@ -39,14 +39,15 @@ Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 # 💾 Project Files Description
 
 Executable Files:
-[Bike Sharing Demand Prediction]-(https://github.com/anas084464/Bike-Sharing-Demand-Prediction/blob/main/Colab_Bike_Sharing_Demand_Prediction_Capstone_Project.ipynb)- Includes Exploratory Data Analysis and all algorithms which are used in this project.
+[Bike Sharing Demand Prediction]-https://github.com/irshad9873/Bike-Sharing-Demand-Prediction/blob/main/Bike_Sharing_Demand_Prediction_Capstone_Project.ipynb- Includes Exploratory Data Analysis and all algorithms which are used in this project.
 
 [Bike Sharing Demand prediction.pdf]-(https://github.com/anas084464/Bike-Sharing-Demand-Prediction/blob/main/presentation%20-%20Seoul%20bike%20sharing%20demand%20prediction.pptx)- Includes pdf of the presentation of the project.
 
-Output:
-[Google Colab]-(https://github.com/anas084464/Bike-Sharing-Demand-Prediction/blob/main/Colab_Bike_Sharing_Demand_Prediction_Capstone_Project.ipynb)
+# Output:
 
-📋 Execution Instruction
+[Google Colab]-(https://github.com/irshad9873/Bike-Sharing-Demand-Prediction/blob/main/Bike_Sharing_Demand_Prediction_Capstone_Project.ipynb)
+
+# 📋 Execution Instruction
 The order of execution of the colab notebook is as follows:
 
 1) Bike_Sharing_Demand_Prediction_Capstone_Project.ipynb
@@ -69,66 +70,18 @@ Downlaod the dataset from kaggle through provided link.Then, connect to the runt
 
 Finally, delete the path in the dataset loading cell and replace it with the path of your current data file. Run each cell to see the output below it.
 
-Algorithms Used
+# Algorithms Used
 
-Linear Regression
-Lasso and Ridge Regression
-Decision tree
-Random Forest
-Gradient Boosting
-Conclusions
+1.Linear Regression
+2.Lasso and Ridge Regression
+3.Decision tree
+4.Random Forest
+5.Gradient Boosting
+
+# Conclusions
+
 The project comes to an end at this point. Beginning with loading the dataset, so far we have done EDA, pre-processing the data, Label encoding, Scaling the data, splitting the data into train and test data, applying various machine learning algorithms followed by hyper parameter tuning. We implemented 8 M.L. models. After comparing the mean square error and mean root square error of all the models, XGBoost has least mean square error and root mean square error. XGBoost has highest accuracy of 91.9% among all algorithms. So, We can conclude that XGBoost is the best model to predict rented bike count. The number of business hours of the day and the demand for rented bikes were most correlated and It makes sense also. Highest number of bike rented at the 18th hour of day. Total number of bike count increased when there was favourable temperature. So, this can be an important factor in predicting underlying patterns of rented bike count.
 
 📚 References
 Random Forest Regressor - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html Gradient Boosting Documentation - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
 
-About
-Supervised Machine Learning (Regression)
-
-Resources
- Readme
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 1 fork
-Releases
-No releases published
-Packages
-No packages published
-Environments 1
- github-pages Active
-Languages
-Jupyter Notebook
-100.0%
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitH
-
-
-
-
-
-# Conclusion -
-1.Most number of bikes are rented during evening time.
-
-2.In summer more number of bikes are rented whereas, winter has the lowest count.
-3.Least numbers of bike are rented on 12th of the month.
-
-4.More bikes are rented if the humidity is low and wind-speed is high.
-
-5.Rainfall and snowfall impact the number of bikes rented tremendously with very high downfall.
-
-6.Linear regression is not suitable for our problem as it makes many assumptions and our dataset is prone to it. Thus, linear regression gives us the lowest r2-score and highest rmse.
-
-7.Random forest regressor performs really good when compared to linear regression with high model performance and low rmse. But it's performance is low when compared to gradient boosting regressor. However, time taken for hyperparameter tuning and training the model is much low for random forest regressor then gradient boosting regressor. Thus, there's a tradeoff of accuracy and time in between random forest and gradient boosting regressor. It's up to us and business domain to which
-algorithm to use.
-
-8.Hour, temperature and solar radiation were the most important features for predicting the count of bikes required.
