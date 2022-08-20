@@ -41,7 +41,7 @@ Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 Executable Files:
 [Bike Sharing Demand Prediction]-https://github.com/irshad9873/Bike-Sharing-Demand-Prediction/blob/main/Bike_Sharing_Demand_Prediction_Capstone_Project.ipynb- Includes Exploratory Data Analysis and all algorithms which are used in this project.
 
-[Bike Sharing Demand prediction.pdf]-(https://github.com/anas084464/Bike-Sharing-Demand-Prediction/blob/main/presentation%20-%20Seoul%20bike%20sharing%20demand%20prediction.pptx)- Includes pdf of the presentation of the project.
+[Bike Sharing Demand prediction.pdf]-https://github.com/irshad9873/Bike-Sharing-Demand-Prediction/blob/main/ppt_presentation_bike%20sharing.pptx- Includes pdf of the presentation of the project.
 
 # Output:
 
@@ -83,5 +83,8 @@ Finally, delete the path in the dataset loading cell and replace it with the pat
 The project comes to an end at this point. Beginning with loading the dataset, so far we have done EDA, pre-processing the data, Label encoding, Scaling the data, splitting the data into train and test data, applying various machine learning algorithms followed by hyper parameter tuning. We implemented 8 M.L. models. After comparing the mean square error and mean root square error of all the models, XGBoost has least mean square error and root mean square error. XGBoost has highest accuracy of 91.9% among all algorithms. So, We can conclude that XGBoost is the best model to predict rented bike count. The number of business hours of the day and the demand for rented bikes were most correlated and It makes sense also. Highest number of bike rented at the 18th hour of day. Total number of bike count increased when there was favourable temperature. So, this can be an important factor in predicting underlying patterns of rented bike count.
 
 📚 References
-Random Forest Regressor - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html Gradient Boosting Documentation - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
+
+Random Forest Regressor - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html 
+
+Gradient Boosting Documentation - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
 
